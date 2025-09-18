@@ -14,6 +14,8 @@ public record DadosCadastroPaciente(
         String email,
         @NotBlank
         String telefone,
+        @NotBlank
+        String cpf,
         @NotNull @Valid 
         DadosEndereco endereco
 ) {

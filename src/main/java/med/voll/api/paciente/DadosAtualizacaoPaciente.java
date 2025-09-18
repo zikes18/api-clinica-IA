@@ -13,6 +13,7 @@ public record DadosAtualizacaoPaciente(
         String telefone,
         @NotBlank
         String email,
+        String cpf,
         DadosEndereco endereco,
         Boolean ativo) {
 
